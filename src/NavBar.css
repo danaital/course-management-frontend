@@ -1,0 +1,26 @@
+.navbar {
+  background-color: #007bff; /* Changed to blue */
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Center the nav items */
+  max-width: 420px; /* Limit the width */
+  margin: 0 auto; /* Center the form */
+  margin-top: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  margin: 0 5px; /* Space between links */
+}
+
+.navbar a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border: 1px solid white;
+}
