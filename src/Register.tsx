@@ -26,6 +26,7 @@ export const Register: React.FC = () => {
   const [repeatPassword, setRepeatPassword] = useState<string>('');
   const [error, setError] = useState<string>('');
 
+  // TODO: Improve this function
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
     if (name === 'email') {
